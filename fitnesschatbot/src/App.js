@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './chat.css'; // Your original CSS file
- // Import the new full-screen CSS file
+import './chat.css'; 
+ 
 import Axios from 'axios';
 import './App.css';
 
@@ -25,7 +25,7 @@ function Chat() {
 
   return (
     <div className="chat-container">
-      <h1>Fitness Chatbot</h1> {/* Added heading here */}
+      <h1>Fitness Chatbot</h1> {FitnessChatbot}
       <div className="chat-history">
         {chatHistory.map((message, index) => (
           <div key={index} className="chat-message">
